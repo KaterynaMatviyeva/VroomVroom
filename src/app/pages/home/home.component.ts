@@ -26,7 +26,7 @@ export class HomeComponent {
       });
   }
 
-  test(brand: string): string[] {
+  path(brand: string): string[] {
     if (brand === 'Fiat') {
       return ['auto1'];
     } else if (brand === 'Ford') {
