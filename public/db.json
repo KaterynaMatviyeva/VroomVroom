@@ -1,0 +1,57 @@
+[
+    {
+        "brand": "Fiat",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Fiat_Automobiles_logo.svg/1024px-Fiat_Automobiles_logo.svg.png",
+        "model": "500L",
+        "modelImage": "https://forzaitalia.pl/wp-content/uploads/2018/10/55f554f6-180919_fiat_500l-s-design_02-copy.jpg",
+        "year": 2015,
+        "price": 7500,
+        "available": false
+    },
+    {
+        "brand": "Fiat",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Fiat_Automobiles_logo.svg/1024px-Fiat_Automobiles_logo.svg.png",
+        "model": "500 Abarth",
+        "modelImage": "https://www.abarth.de/content/dam/abarth/gamma/500e-range/gallery-1/2/New_Abarth_500e_Range-Gallery_1-card-02-Tablet-818X413.jpg",
+        "year": 2010,
+        "price": 3500,
+        "available": true
+    },
+    {
+        "brand": "Ford",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Ford-Motor-Company-Logo.png",
+        "model": "Taurus",
+        "modelImage": "",
+        "year": 2009,
+        "price": 5200,
+        "available": false
+    },
+    {
+        "brand": "Ford",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Ford-Motor-Company-Logo.png",
+        "model": "Focus",
+        "modelImage": "",
+        "year": 2014,
+        "price": 9700,
+        "available": true
+    },
+    {
+        "brand": "Audi",
+        "brandLogo": "https://static.vecteezy.com/system/resources/previews/019/766/236/non_2x/audi-logo-audi-icon-transparent-free-png.png",
+        "model": "A3",
+        "modelImage": "",
+        "year": 2012,
+        "price": 4300,
+        "available": true
+    },
+    {
+        "brand": "Audi",
+        "brandLogo": "https://static.vecteezy.com/system/resources/previews/019/766/236/non_2x/audi-logo-audi-icon-transparent-free-png.png",
+        "model": "Q7",
+        "modelImage": "",
+        "year": 2020,
+        "price": 41700,
+        "available": false
+    }
+]
+

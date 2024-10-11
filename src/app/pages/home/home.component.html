@@ -1,0 +1,45 @@
+<main class="d-flex">
+  <app-side-bar></app-side-bar>
+
+  <div class="d-flex flex-column flex-grow-1 mt-5">
+    <app-logo-bar></app-logo-bar>
+
+    <div class="container mt-5">
+      <div class="row">
+        <ng-container *ngFor="let car of cars">
+          <div class="col col-12 col-md-3 g-3">
+            <div
+              class="card h-100"
+              [ngClass]="{
+                'border-success': car.available,
+                'border-danger': !car.available
+              }"
+            >
+              <img src="{{ car.modelImage }}" alt="" />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">{{ car.brand }}</h5>
+                <h6>{{ car.model }}</h6>
+                <p>{{ car.year }}</p>
+                <p>{{ car.price | currency : "EUR" }}</p>
+                <p class="card-text">
+                  Disponibile: {{ car.available ? "si" : "no" }}
+                </p>
+
+                <button
+                  class="btn"
+                  [routerLink]="test(car.brand)"
+                  [ngClass]="{
+                    'btn-success': car.available,
+                    'btn-danger': !car.available
+                  }"
+                >
+                  Scopri di più
+                </button>
+              </div>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</main>
