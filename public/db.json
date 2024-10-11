@@ -21,7 +21,7 @@
         "brand": "Ford",
         "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Ford-Motor-Company-Logo.png",
         "model": "Taurus",
-        "modelImage": "",
+        "modelImage": "https://images.ctfassets.net/uaddx06iwzdz/4sqP1ISUrsdnQKS8QBq2Rq/9e4b615918aabc4958fc7f3287cf92b3/ford-taurus-side.jpeg",
         "year": 2009,
         "price": 5200,
         "available": false
@@ -30,7 +30,7 @@
         "brand": "Ford",
         "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Ford-Motor-Company-Logo.png",
         "model": "Focus",
-        "modelImage": "",
+        "modelImage": "https://hd2.tudocdn.net/1151384?w=550&h=550",
         "year": 2014,
         "price": 9700,
         "available": true
@@ -39,7 +39,7 @@
         "brand": "Audi",
         "brandLogo": "https://static.vecteezy.com/system/resources/previews/019/766/236/non_2x/audi-logo-audi-icon-transparent-free-png.png",
         "model": "A3",
-        "modelImage": "",
+        "modelImage": "https://images.coches.com/_vn_/audi/A3-Sportback/aa68522853aba8783a5b629f8393292f.jpg?p=cc_vn_medium",
         "year": 2012,
         "price": 4300,
         "available": true
@@ -48,7 +48,7 @@
         "brand": "Audi",
         "brandLogo": "https://static.vecteezy.com/system/resources/previews/019/766/236/non_2x/audi-logo-audi-icon-transparent-free-png.png",
         "model": "Q7",
-        "modelImage": "",
+        "modelImage": "https://cdn.motor1.com/images/mgl/0eNxlp/s3/audi-q7-2024.jpg",
         "year": 2020,
         "price": 41700,
         "available": false
