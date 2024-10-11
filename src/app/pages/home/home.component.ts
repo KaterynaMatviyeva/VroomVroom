@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Auto } from '../../iAuto';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,8 @@ import { Auto } from '../../iAuto';
   styleUrl: './home.component.scss',
 })
 export class HomeComponent {
+  constructor(private router: Router) {}
+  allCars: Auto[] = [];
   cars: Auto[] = [];
 
   ngOnInit(): void {
@@ -19,6 +22,7 @@ export class HomeComponent {
         }
       })
       .then((data) => {
+        this.allCars = data;
         this.cars = data.slice(1, 5);
       })
       .catch((err) => {
@@ -26,14 +30,7 @@ export class HomeComponent {
       });
   }
 
-  path(brand: string): string[] {
-    if (brand === 'Fiat') {
-      return ['auto1'];
-    } else if (brand === 'Ford') {
-      return ['auto2'];
-    } else if (brand === 'Audi') {
-      return ['auto3'];
-    }
-    return [];
+  navigateTo(brand: string) {
+    this.router.navigate(['auto'], { state: { carBrand: brand } });
   }
 }

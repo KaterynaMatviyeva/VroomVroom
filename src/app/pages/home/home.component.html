@@ -27,7 +27,7 @@
 
                 <button
                   class="btn"
-                  [routerLink]="path(car.brand)"
+                  (click)="navigateTo(car.brand)"
                   [ngClass]="{
                     'btn-success': car.available,
                     'btn-danger': !car.available

@@ -1,18 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Auto3Component } from './auto3.component';
+import { AutoComponent } from './auto.component';
 
-describe('Auto3Component', () => {
-  let component: Auto3Component;
-  let fixture: ComponentFixture<Auto3Component>;
+describe('AutoComponent', () => {
+  let component: AutoComponent;
+  let fixture: ComponentFixture<AutoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [Auto3Component]
-    })
-    .compileComponents();
+      declarations: [AutoComponent],
+    }).compileComponents();
 
-    fixture = TestBed.createComponent(Auto3Component);
+    fixture = TestBed.createComponent(AutoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

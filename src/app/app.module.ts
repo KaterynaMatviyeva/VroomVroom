@@ -8,9 +8,7 @@ import { LogoBarComponent } from './main-component/logo-bar/logo-bar.component';
 import { SideBarComponent } from './main-component/side-bar/side-bar.component';
 import { FooterComponent } from './main-component/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
-import { Auto1Component } from './pages/auto1/auto1.component';
-import { Auto2Component } from './pages/auto2/auto2.component';
-import { Auto3Component } from './pages/auto3/auto3.component';
+import { AutoComponent } from './pages/auto/auto.component';
 
 @NgModule({
   declarations: [
@@ -20,15 +18,10 @@ import { Auto3Component } from './pages/auto3/auto3.component';
     SideBarComponent,
     FooterComponent,
     HomeComponent,
-    Auto1Component,
-    Auto2Component,
-    Auto3Component
+    AutoComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
