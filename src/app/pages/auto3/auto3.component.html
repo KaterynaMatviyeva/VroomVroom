@@ -9,6 +9,7 @@
             'border-danger': !car.available
           }"
         >
+          <h5 class="card-title text-center">{{ car.brand }}</h5>
           <img src="{{ car.modelImage }}" alt="" />
           <div
             class="card-body d-flex flex-column bg-opacity-10"
@@ -17,13 +18,20 @@
               'bg-danger': !car.available
             }"
           >
-            <h5 class="card-title">{{ car.brand }}</h5>
             <h6>{{ car.model }}</h6>
             <p>{{ car.year }}</p>
-            <p>{{ car.price | currency : "EUR" }}</p>
             <p class="card-text">
               Disponibile: {{ car.available ? "si" : "no" }}
             </p>
+            <button
+              [ngClass]="{
+                'btn-success': car.available,
+                'btn-danger': !car.available
+              }"
+              class="btn"
+            >
+              {{ car.price | currency : "EUR" }}
+            </button>
           </div>
         </div>
       </div>
