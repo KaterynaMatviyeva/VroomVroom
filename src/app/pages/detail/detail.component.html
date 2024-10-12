@@ -37,8 +37,20 @@
                 {{ car.price | currency : "EUR" }}</small
               >
             </p>
-
-            <button class="btn btn-outline-primary">Compra ora</button>
+            <p class="card-text">
+              Disponibile: {{ car.available ? "si" : "no" }}
+            </p>
+            <button
+              [ngClass]="{
+                'button-available ': car.available,
+                'button-event': !car.available,
+                'btn-outline-danger': !car.available,
+                'btn-outline-success': car.available,
+              }"
+              class="btn btn-outline-primary"
+            >
+              Compra ora
+            </button>
           </div>
         </div>
       </div>

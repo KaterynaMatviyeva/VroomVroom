@@ -7,3 +7,9 @@ h5 {
 .container > img {
   width: 100px;
 }
+.button-event {
+  pointer-events: none;
+}
+.button-available {
+  pointer-events: auto;
+}
