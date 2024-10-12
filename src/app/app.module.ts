@@ -9,6 +9,7 @@ import { SideBarComponent } from './main-component/side-bar/side-bar.component';
 import { FooterComponent } from './main-component/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AutoComponent } from './pages/auto/auto.component';
+import { DetailComponent } from './pages/detail/detail.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { AutoComponent } from './pages/auto/auto.component';
     FooterComponent,
     HomeComponent,
     AutoComponent,
+    DetailComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

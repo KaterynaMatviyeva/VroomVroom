@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Auto } from '../../iAuto';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-auto',
@@ -7,6 +8,7 @@ import { Auto } from '../../iAuto';
   styleUrl: './auto.component.scss',
 })
 export class AutoComponent implements OnInit {
+  constructor(private router: Router) {}
   cars: Auto[] = [];
 
   ngOnInit() {
@@ -28,5 +30,8 @@ export class AutoComponent implements OnInit {
           console.log('errore nel server', err);
         });
     }
+  }
+  goOnDetail(model: string) {
+    this.router.navigate(['detail'], { state: { carModel: model } });
   }
 }

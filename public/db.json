@@ -3,55 +3,61 @@
         "brand": "Fiat",
         "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Fiat_Automobiles_logo.svg/1024px-Fiat_Automobiles_logo.svg.png",
         "model": "500L",
-        "modelImage": "https://forzaitalia.pl/wp-content/uploads/2018/10/55f554f6-180919_fiat_500l-s-design_02-copy.jpg",
+        "modelImage": ["https://www.autocentrum.pl/NzBjLmpwYRsjCDpeXwxsD2BQbkIRFGMcKwYpQhMWPFc0Dz4eGRggVXcJf15CQHlKIV14D0NCe0kkXXwOFUB-GWwAPApSCg","https://www.federmetano.it/wp-content/uploads/2018/03/fiat-500L.jpg", "https://www.garaza.rs/wp-content/uploads/2019/04/500L-Cross-N1-main.jpg","https://www.largus.fr/images/styles/max_1300x1300/public/images/500l-red_1.jpg?itok=iDzDlcNI", "https://www.lucianoedamirentcar.com/wp-content/uploads/2022/06/fiat-500-l.jpg" ],
         "year": 2015,
         "price": 7500,
-        "available": false
+        "available": false,
+        "description": "Presentata nel 2012 e aggiornata nel 2017, la Fiat 500L è una delle ultimissime rappresentanti di un segmento di mercato ormai quasi del tutto sparito. Stiamo parlando delle monovolume. Spaziosa e funzionale, è dedicata a chi cerca tanto spazio e grazie al motori a gasolio della famiglia Multijet si dimostra anche molto parca nei consumi. Con il Model Year targato 2021 la gamma degli allestimenti si arricchisce di nuove versioni che arricchiscono il pacchetto di contenuti del modello, allineandolo a quello delle sorelle 500 e 500X."
     },
     {
         "brand": "Fiat",
         "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Fiat_Automobiles_logo.svg/1024px-Fiat_Automobiles_logo.svg.png",
         "model": "500 Abarth",
-        "modelImage": "https://www.abarth.de/content/dam/abarth/gamma/500e-range/gallery-1/2/New_Abarth_500e_Range-Gallery_1-card-02-Tablet-818X413.jpg",
+        "modelImage": ["https://images.autouncle.com/de/car_images/medium_f2c199ac-f962-4986-a7a9-69c4913ab090_fiat-500-abarth-abarth.jpg","https://images.autouncle.com/de/car_images/c7d9056e-18a6-400f-bbb1-87a74a88d851_fiat-500-abarth-abarth.jpg","https://lb.assets.fiat.com/vl-picker-service/rest/getImage?source=stocklocator&consumer=responsive&market=3136&brand=66&model=3320HB&mmvs=66332A130TOP&body=878&seat=804&angle=1&view=EXT&width=1024&height=576&background=FFFFFF","https://feassets.bymycar.fr/vn/40/111290/0/abarth-500-e-155-ch-neuf-2024-fontaine.jpg","https://www.motornet.it/img/modelli/auto/FIA/500e_1.jpg"],
         "year": 2010,
         "price": 3500,
-        "available": true
+        "available": true,
+        "description":"Nella botte piccola cè il vino buono, parlando di 500 Abarth mai ci fu proverbio più azzeccato. La piccola citycar è un vero e proprio concentrato di potenza, eleganza e velocità. Il modello made in Fiat, lanciato nel 2022 in occasione dei 73 anni del marchio, ha saputo ancora una volta conquistare gli appassionati di auto sportive. Le versioni lanciate sul mercato per loccasione sono state lAbarth 595 e lAbarth 695. Andiamo a scoprire tutte le loro caratteristiche, partendo proprio da quei motori che hanno reso lo scorpione una leggenda nel panorama automobilistico nazionale ed internazionale."
     },
     {
         "brand": "Ford",
         "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Ford-Motor-Company-Logo.png",
         "model": "Taurus",
-        "modelImage": "https://images.ctfassets.net/uaddx06iwzdz/4sqP1ISUrsdnQKS8QBq2Rq/9e4b615918aabc4958fc7f3287cf92b3/ford-taurus-side.jpeg",
+        "modelImage": ["", "https://img.freepik.com/foto-premium/auto-isolata-su-sfondo-bianco-ford-taurus-fullsize-sedan-white-car-blank-clean-o-white-black_655090-717387.jpg","","https://cloudflarestockimages.dealereprocess.com/resrc/images/stockphoto_asset-c_limit,f_auto,fl_lossy,w_600/v1/svp/Colors_PNG1280/2019/19ford/19fordtaurusltdsd7fa/ford_19taurusltdsd7fa_angularfront_agateblack",""],
         "year": 2009,
         "price": 5200,
-        "available": false
+        "available": false,
+        "description":"Il mercato dell'auto americano sta molto cambiando. Nonostante siano stati proprio gli americani a lanciare e a rendere popolare il segmento dei SUV, ovvero di fuoristrada più comodi e lussuosi dedicati al tempo libero e non al fuoristrada, fino agli anni '10 hanno resistito tra le preferenze della clientela le classiche berline. All'arrivo degli anni '20 del XXI secolo, però, le berline con la coda tanto amate dal pubblico Yankee sembrano avere le ore contate. L'esempio lampante è Ford, colei che con il primo Explorer ha inventato il primo SUV moderno, che dal 2019 ha cessato la produzione della sua berlina di grandi dimensioni, la Ford Taurus."
     },
     {
         "brand": "Ford",
         "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Ford-Motor-Company-Logo.png",
         "model": "Focus",
-        "modelImage": "https://hd2.tudocdn.net/1151384?w=550&h=550",
+        "modelImage": ["https://www.fordbarchetti.it/images/vehicles/4260021/0/large","https://www.cheautocompro.it/sites/default/files/images/auto/FOR852A-FOCUS%202021_1_0.jpg","https://live.dealer-asset.co/images/se8/product/paintSwatch/vehicle/DesertIslandBlue.png?s=1024","https://www.cheautocompro.it/sites/default/files/images/auto/FOR877A-FOCUS%20ACTIVE%202021_1_1.jpg","https://img4.autodeclics.com/photo_fiches-technique/P/p0551840.jpg"],
         "year": 2014,
         "price": 9700,
-        "available": true
+        "available": true,
+        "description":"Berlina a cinque porte di medie dimensioni, la quarta generazione della Ford Focus (lievemente aggiornata a fine 2021) è un'auto dalle linee sinuose e con un abitacolo particolarmente spazioso; lineare e moderna la plancia, con l'enorme display di 13,2 dell'impianto multimediale a sbalzo sopra la consolle centrale (solo nella Business è di 8). Il bagagliaio ha una capienza più che discreta. I tecnici hanno lavorato molto per garantire una guida precisa, e in effetti l'auto è maneggevole (soprattutto nel più sportiveggiante allestimento ST-Line). Il motore a benzina più piccolo è l'economo (ma un po' rumoroso) 1.0 turbo a tre cilindri in versione ibrida leggera, che nella versione da 125 CV garantisce un certo brio e in quella da 155 regala qualche soddisfazione a chi ama le auto grintose. Da questo punto di vista fa storia a sé il 2.3 della corsaiola ST, una berlina davvero intrigante da guidare. Tutte le Ford Focus hanno di serie la frenata automatica di emergenza (se si rischia di tamponare un altro veicolo o di investire un pedone o un ciclista), il sistema che tiene in corsia (riesce a leggere la strada anche se non ci sono linee di delimitazione dipinte sull'asfalto) e la chiave di avviamento MyKey (consente di impostare parametri specifici, come una velocità massima inferiore, per dare magari l'auto in uso ai figli poco esperti).  "
     },
     {
         "brand": "Audi",
         "brandLogo": "https://static.vecteezy.com/system/resources/previews/019/766/236/non_2x/audi-logo-audi-icon-transparent-free-png.png",
         "model": "A3",
-        "modelImage": "https://images.coches.com/_vn_/audi/A3-Sportback/aa68522853aba8783a5b629f8393292f.jpg?p=cc_vn_medium",
+        "modelImage": ["https://autohaus-rinner.de/wp-content/uploads/carimg/FS-R7127_02.jpg","https://mediaservice.audi.com/media/cdb/data/20853207-2e21-4007-bc58-e15bfe2d9f88.jpg","https://www.you-go.it/wp-content/uploads/2020/10/A3-Sedan-2020_1.jpeg","https://www.romanoautomobili.it/wp-content/uploads/2017/02/NUOVA-AUDI-A3-NOLEGGIO-LUNGO-TERMINE-1.jpg","https://www.carweb.it/storage/app/uploads/public/663/e43/12b/663e4312b09d1442958952.jpg"],
         "year": 2012,
         "price": 4300,
-        "available": true
+        "available": true,
+        "description":"L'Audi A3 Sportback è forse uno dei modelli più iconici della Casa dei Quattro Anelli ed è per questo che con la quarta generazione, lanciata nel 2020, il marchio tedesco ha regalato alla vettura un listino ancora più ampio, che ora comprende modelli diesel, benzina, ibridi e persino metano. Audi insomma punta a soddisfare le esigenze di tutti i suoi clienti: sono disponibili propulsori con potenze che vanno da 110 a 400 CV, quattro diversi allestimenti e tantissime possibilità di personalizzazione."
     },
     {
         "brand": "Audi",
         "brandLogo": "https://static.vecteezy.com/system/resources/previews/019/766/236/non_2x/audi-logo-audi-icon-transparent-free-png.png",
         "model": "Q7",
-        "modelImage": "https://cdn.motor1.com/images/mgl/0eNxlp/s3/audi-q7-2024.jpg",
+        "modelImage": ["https://mediaservice.audi.com/media/cdb/data/b2184b36-99c7-4c3b-9351-a45c61533af1.jpg","https://www.lombardamotori.it/images/vehicles/4284334/0/large","https://m.atcdn.co.uk/vms/media/a2a264fcf9ef490faa57c187ec2f3c3a.jpg","https://mediaservice.audi.com/media/cdb/data/48d9bb1f-606b-41a2-82eb-abb9b767f45d.jpg","https://pictures.dealer.com/generic-aoa-OEM_VIN_STOCK_PHOTOS/53eed10fc81290d7dc496271d3fb63ba.jpg?impolicy=resize&w=640"],
         "year": 2020,
         "price": 41700,
-        "available": false
+        "available": false,
+        "description":"Con l'ultimo restyling, la seconda generazione dell'Audi Q7 compie un notevole passo avanti non soltanto dal punto di vista stilistico, ma anche dei contenuti. Più moderno e tecnologico, offre ora soluzioni tecniche e tecnologiche ora più al passo con i tempi. Su tutte, la presenza dei fari Matrix Led e il sistema mild-hybrid per i motori 3.0 benzina e Diesel con potenze comprese fra 231 e 340 CV. A listino anche una versione plug-in declinata in due livelli di potenza."
     }
 ]
 

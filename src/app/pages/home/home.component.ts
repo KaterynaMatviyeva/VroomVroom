@@ -23,7 +23,7 @@ export class HomeComponent {
       })
       .then((data) => {
         this.allCars = data;
-        this.cars = data.slice(1, 5);
+        this.cars = data;
       })
       .catch((err) => {
         console.log('Errore nel serve', err);

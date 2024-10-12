@@ -1,27 +1,25 @@
-<main class="d-flex">
+<main>
   <app-side-bar></app-side-bar>
 
-  <div class="d-flex flex-column flex-grow-1 mt-5">
-    <app-logo-bar></app-logo-bar>
-
-    <div class="container mt-5">
+  <div class="d-flex flex-column flex-grow-1">
+    <div class="container-fluid">
       <div class="row">
         <ng-container *ngFor="let car of cars">
-          <div class="col col-12 col-md-3 g-3">
+          <div class="col col-12 col-md-2 g-3">
             <div
-              class="card h-100"
+              class="card h-100 d-flex"
               [ngClass]="{
                 'border-success': car.available,
                 'border-danger': !car.available
               }"
             >
-              <img src="{{ car.modelImage }}" alt="" />
+              <img src="{{ car.modelImage[1] }}" alt="" />
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">{{ car.brand }}</h5>
                 <h6>{{ car.model }}</h6>
                 <p>{{ car.year }}</p>
-                <p>{{ car.price | currency : "EUR" }}</p>
-                <p class="card-text">
+                <p>A partire da: {{ car.price | currency : "EUR" }}</p>
+                <p class="card-text flex-grow-1">
                   Disponibile: {{ car.available ? "si" : "no" }}
                 </p>
 
@@ -41,5 +39,6 @@
         </ng-container>
       </div>
     </div>
+    <app-logo-bar></app-logo-bar>
   </div>
 </main>
